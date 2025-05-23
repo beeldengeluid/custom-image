@@ -1,0 +1,45 @@
+# VSCode
+.vscode/
+.vscode/*
+
+# Java build outputs
+target/
+build/
+
+# Logs
+*.log
+
+# Temporary and swap files
+*.tmp
+*.temp
+*.swp
+
+# Docker swap/temp files
+*.swp
+*.tmp
+
+# Local docker-compose override (optional)
+docker-compose.override.yml
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IntelliJ IDEA files (if used)
+.idea/
+*.iml
+
+# Maven Wrapper
+.mvn/wrapper/maven-wrapper.jar
+
+# Node modules (if any frontend)
+node_modules/
+
+# Compiled files
+*.class
+*.jar
+*.war
+*.ear
+
+# GitHub workflow logs (optional)
+.github/workflows/*.log
